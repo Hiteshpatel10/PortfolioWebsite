@@ -1,20 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Projects from './pages/Projects';
-import Navbar from './components/Nav/Navbar'
-import './index.css';
-import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import App from './App';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
-    <Projects />
-    <About />
-    <Contact />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-reportWebVitals();

@@ -1,14 +1,40 @@
 import React from 'react'
-import aboutCss from './Project.css'
+import ProjectCard from '../Components/ProjectCard'
+import Slider from "react-slick";
 
 export default function Projects() {
+    var settings = {
+        dots: true,
+        infinite: true,
+        autoplaySpeed: 7000,
+        autoplay: true,
+        speed: 2000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMod: true,
+      };
     return (
-        <section className="secton section-title">
-            <div className="row ">
-                <div className="col span-1-of-3 back1">sfsdfsf</div>
-                <div className="col span-1-of-3 back2">sfsdfsf</div>
-                <div className="col span-1-of-3 back3">sfsdfsf</div>
-            </div>
-        </section>
+        <div>
+            <Slider {...settings}>
+                <div>
+                    <ProjectCard/>
+                </div>
+                <div>
+                    <ProjectCard/>
+                </div>
+                <div>
+                    <ProjectCard/>
+                </div>
+                <div>
+                    <ProjectCard/>
+                </div>
+                <div>
+                    <ProjectCard/>
+                </div>
+            
+            </Slider>
+
+         
+        </div>
     )
 }

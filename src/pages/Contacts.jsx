@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Skills() {
+export default function Contacts() {
     return (
         <div>
-            <h1>Skills</h1>
+            <h1>Contact</h1>
         </div>
     )
 }
