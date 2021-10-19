@@ -1,13 +1,10 @@
 import React from 'react'
-import logo from '../Assets/hitesh.png'
 import kotlin from '../Assets/kotlin.png'
-import c from '../Assets/c.png'
-import java from '../Assets/java.png'
 
-export default function LanguageComponent() {
+export default function ToolsComponents() {
     return (
         <div className="card ml-4 mr-4 shadow p-3 mb-5 bg-white rounded col-sm">
-        <h5 className="text-center">Framework</h5>
+        <h5 className="text-center">Language</h5>
 
         <div className="p-3">
             <div class="row">
@@ -47,3 +44,5 @@ export default function LanguageComponent() {
     </div>
     )
 }
+
+//card pl shadow-lg p-2 mb-5 mx-3 bg-body rounded col-sm
